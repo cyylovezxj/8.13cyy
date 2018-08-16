@@ -1,0 +1,29 @@
+ul{
+	list-style: none;
+}
+a{
+	float: left;
+	margin-right: 20px;
+	padding: 0 5px;
+}
+a:hover{
+	color: #fff;
+	background-color: #f40;
+	/*height: 30px;
+	line-height: 30px;*/
+	text-align: center;
+	border-radius: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul::after{
+	clear: both;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: #f40;
+	text-decoration: none;
+}
